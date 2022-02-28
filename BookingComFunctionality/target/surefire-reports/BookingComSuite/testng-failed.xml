@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BookingComSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="SearchAccommodationFunctionalityTest(failed)" verbose="0">
+    <classes>
+      <class name="BookingComProject.SearchAccommodationFunctionalityTest">
+        <methods>
+          <include name="testTearDown"/>
+          <include name="searchAvailableAccommodationTest"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- BookingComProject.SearchAccommodationFunctionalityTest -->
+    </classes>
+  </test> <!-- SearchAccommodationFunctionalityTest(failed) -->
+  <test thread-count="5" name="NegativeLoginTest(failed)" verbose="0">
+    <classes>
+      <class name="BookingComProject.NegativeLoginTest">
+        <methods>
+          <include name="bookingComNegativeLoginTest"/>
+          <include name="testTearDown"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- BookingComProject.NegativeLoginTest -->
+    </classes>
+  </test> <!-- NegativeLoginTest(failed) -->
+  <test thread-count="5" name="FinalReservationFunctionalityTest(failed)" verbose="0">
+    <classes>
+      <class name="BookingComProject.FinalReservationFunctionalityTest">
+        <methods>
+          <include name="reservationOfChosenAccommodationTest"/>
+          <include name="testTearDown"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- BookingComProject.FinalReservationFunctionalityTest -->
+    </classes>
+  </test> <!-- FinalReservationFunctionalityTest(failed) -->
+  <test thread-count="5" name="AdditionalFilterSearchTest(failed)" verbose="0">
+    <classes>
+      <class name="BookingComProject.AdditionalFilterSearchTest">
+        <methods>
+          <include name="testTearDown"/>
+          <include name="additionalFilterSearchTest"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- BookingComProject.AdditionalFilterSearchTest -->
+    </classes>
+  </test> <!-- AdditionalFilterSearchTest(failed) -->
+  <test thread-count="5" name="PositiveLoginTest(failed)" verbose="0">
+    <classes>
+      <class name="BookingComProject.PositiveLoginTest">
+        <methods>
+          <include name="testTearDown"/>
+          <include name="bookingComPositiveLoginTest"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- BookingComProject.PositiveLoginTest -->
+    </classes>
+  </test> <!-- PositiveLoginTest(failed) -->
+</suite> <!-- Failed suite [BookingComSuite] -->
